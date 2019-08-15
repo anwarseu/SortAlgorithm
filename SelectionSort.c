@@ -1,5 +1,5 @@
 #include <stdio.h>
-void binary_search(int A[], int n){
+void selection_sort(int A[], int n){
     int index_min;
     for (int i = 0; i < n; i++) {
         index_min = i;
